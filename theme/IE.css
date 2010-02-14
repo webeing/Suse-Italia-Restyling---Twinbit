@@ -1,0 +1,23 @@
+
+.tooltip{display:none;}
+a:hover.add .tooltip{display:block;}
+
+
+	dl a.ie dd { display: none; }
+ 
+/* Fix IE6 hover bug */
+dl a.ie dt
+{
+	display: block;
+}
+ 
+dl a.ie:hover dd,
+dl a.ie:active dd,
+dl a.ie:focus dd
+{
+	height: 16em;
+	display: block;
+	color: #6a6a6a;
+}
+
+dl a.ie:focus dd p{ color:#333333;}
