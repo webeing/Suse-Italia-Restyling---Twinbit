@@ -1,0 +1,22 @@
+/*  
+Author: Webeing
+Author URI: http://www.webeing.net
+FLUID STYLE
+*/
+
+.full{width:100%;}
+div.size{ width:95%; min-width:940px;}
+#content{ }
+div#posts{margin-right:320px;}
+div#sidebar {position:absolute; right:0;}
+.home #posts div.article, #posts div.article { background:none; background-color:#FFFFFF; border:#E5e5e5 solid;border-width:0 1px;}
+.block-side div.slide {background:none; background-color:#FFFFFF;}
+#gallery{ overflow:hidden;}
+div#last-home{ }
+div#last-forum {margin-right:250px;}
+div#guide {position:absolute; right:0; top:0;}
+#last-forum div.inner, #guide div.inner { background:none; background-color:#FFFFFF; border:#d8d8d8 solid;border-width:0 1px;}
+div#friends-list { margin-left:170px;}
+div.friend-add h3 {width:100%;}
+div.friend-add div{ width:80%;}
+a.add{ position:absolute; right:15px;}

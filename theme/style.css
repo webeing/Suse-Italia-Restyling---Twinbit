@@ -6,6 +6,7 @@ Author URI: http://www.webeing.net
 /* Default styles */
 @import "reset.css";
 @import "forum.css";
+@import "fluid-style.css";
 
 /*-----------------------------*/
 /* 1. GENERIC STYLE */
@@ -22,7 +23,7 @@ h4, h4 a{ font-size:14px; color:#2a2a2a;}
 a{ color:#8b8b8b; text-decoration:none;}
 a:hover{ color:#488d05;}
 
-#header{ background:transparent url(images/bk-header.png) no-repeat center 25px;}
+#header{ background:transparent url(images/bk-header.png) no-repeat 10% 25px;}
 #top-menu{font-size:10px;}
 #top-menu span.evidence{ background:transparent url(images/btn-network.png) no-repeat left 50%; margin:2px 10px; padding:5px 10px 5px 5px; color:#fff;}
 ul#network li{ float:left; margin:3px 5px;}
@@ -53,7 +54,7 @@ input.search{width:150px; padding:5px;}
 .archive img{ width:150px; max-height:150px; _height:150px;}
 body.home #content{padding:20px 0;}
 body #content{padding:50px 0;}
-#posts, #forum{ width:623px;}
+/*#posts, #forum{ width:623px;}*/
 
 #sidebar{ width:300px;}
 
@@ -98,7 +99,7 @@ ul#nav-footer li a:hover{color:#488d05;}
 
 #gallery li{ float:left; margin:0 10px 0 0;}
 
-#last-forum{ width:385px; margin-right:10px;}
+/*#last-forum{ width:385px; margin-right:10px;}*/
 #last-forum .inner{ background:transparent url(images/bk-body-last-forum.png) repeat-y left top;}
 #last-forum h3.title{ background:transparent url(images/title-last-forum.png) no-repeat left top; height:38px;position:relative; padding:0 30px 0 10px; font-weight:bold; line-height:35px;}
 .inner li{ padding:5px 5px 5px 10px; background:transparent url(images/item.png) no-repeat left 10px; border-bottom:#ebeaeb solid 1px;}
@@ -131,7 +132,7 @@ ul#nav-footer li a:hover{color:#488d05;}
 
 /* 3.1 User */
 
-#user-log{ margin:5px 5px 40px; padding:10px 40px 20px; width:340px; border-color:#eeeeee;}
+#user-log{ margin:5px 5px 40px; padding:10px 40px 20px; /*width:340px; */border-color:#eeeeee;}
 
 #search-user{ background:transparent url(images/bk-seach-user.png) no-repeat left top; padding:13px 40px;  margin:5px; width:340px;}
 #search-user input#search-friend{width:250px;}
@@ -147,8 +148,8 @@ ul#nav-footer li a:hover{color:#488d05;}
 #nav-user li a:hover, #nav-user li a.active{ background:transparent url(images/bk-nav-user-hover.png) repeat-x left bottom; color:#525252;}
 #nav-user li a:hover span, #nav-user li a.active span{ background-image:url(images/count-user-hover.png);}
 
-#friends-list{ width:420px;}
-.friend-add{ border-bottom:#e4e4e4 solid 1px; padding:20px 0; }
+/*#friends-list{ width:420px;}
+*/.friend-add{ border-bottom:#e4e4e4 solid 1px; padding:20px 0; }
 .friend-add h3{ width:300px; margin:5px 0 5px;}
 .friend-add a.add{margin:20px 0 0;}
 
