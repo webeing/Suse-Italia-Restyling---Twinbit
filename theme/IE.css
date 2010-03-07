@@ -2,7 +2,6 @@
 .tooltip{display:none;}
 a:hover.add .tooltip{display:block;}
 
-
 	dl a.ie dd { display: none; }
  
 /* Fix IE6 hover bug */

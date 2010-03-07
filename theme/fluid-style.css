@@ -13,10 +13,10 @@ div#sidebar {position:absolute; right:0;}
 .block-side div.slide {background:none; background-color:#FFFFFF;}
 #gallery{ overflow:hidden;}
 div#last-home{ }
-div#last-forum {margin-right:250px;}
-div#guide {position:absolute; right:0; top:0;}
+div#last-forum {float:left; width:61%; margin-right:15px;}
+div#guide {float:right; width:33%; min-width:225px;}
 #last-forum div.inner, #guide div.inner { background:none; background-color:#FFFFFF; border:#d8d8d8 solid;border-width:0 1px;}
-div#friends-list { margin-left:170px;}
+div#friends-list { margin-left:190px;}
 div.friend-add h3 {width:100%;}
 div.friend-add div{ width:80%;}
 a.add{ position:absolute; right:15px;}
